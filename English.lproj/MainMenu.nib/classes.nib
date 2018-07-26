@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+                {
+            ACTIONS =             {
+                goToPageMarker = id;
+            };
+            CLASS = Controller;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                pdfView = PDFViewSubclass;
+            };
+            SUPERCLASS = NSObject;
+        }, 
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        }, 
+                {
+            CLASS = PDFViewSubclass;
+            LANGUAGE = ObjC;
+            SUPERCLASS = PDFView;
+        }
+    );
+    IBVersion = 1;
+}
